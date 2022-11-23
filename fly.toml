@@ -11,12 +11,6 @@ processes = []
   dockerfile = "Dockerfile"
 
 
-[mount]
-  source = "jk_storage"
-  destination = "/dashboard"
-
-
-
 [experimental]
   allowed_public_ports = []
   auto_rollback = true
