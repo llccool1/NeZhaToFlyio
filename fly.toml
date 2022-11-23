@@ -8,12 +8,12 @@ processes = []
 
 
 [build]
-image = "ghcr.io/naiba/nezha-dashboard"
+  dockerfile = "Dockerfile"
 
 
 [mount]
-source = "jk_storage"
-destination = "/dashboard"
+  source = "jk_storage"
+  destination = "/dashboard"
 
 
 
