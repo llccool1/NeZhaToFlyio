@@ -1,0 +1,75 @@
+debug: false
+language: zh-CN
+site:
+  brand: 服务器监控中心
+  cookiename: nezha-dashboard
+  theme: default
+  dashboardtheme: default
+  customcode: "<style>\r\n.ui.fine.progress> .bar {\r\n    background-color: #00CC66
+    !important;\r\n}\r\n</style>\r\n<style>\r\n.right.menu>a{\r\nvisibility: hidden;\r\n}\r\n.footer
+    .is-size-7{\r\nvisibility: hidden;\r\n}\r\n.item img{\r\nvisibility: hidden;\r\n}\r\n</style>\r\n<style>\r\n/*
+    屏幕适配 */\r\n\r\n@media only screen and (min-width: 1200px) {\r\n  .ui.container
+    {\r\n    width: 77%;\r\n  }\r\n}\r\n\r\n@media only screen and (max-width: 767px)
+    {\r\n  .ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui)
+    {\r\n    margin-top: 0.5em;\r\n  }\r\n}\r\n\r\n\r\n\r\n/* 图标颜色和大小*/\r\n\r\ni.icon
+    {\r\n        color: #000;\r\n        width: 1em !important;\r\n}\r\n\r\n\r\n\r\n/*
+    菜单颜色 */\r\n\r\n.ui.large.menu {\r\n    background-color: rgba(255, 255, 255, 0%);\r\n}\r\n\r\n.ui.dropdown
+    .menu {\r\n  border: 0;\r\n  border-radius: 0px;\r\n  background-color: rgba(255,
+    255, 255, 100%);\r\n}\r\n\r\n\r\n\r\n/* 登录按钮颜色 */\r\n\r\n.nezha-primary-btn {\r\n
+    \   background-color: #21ba45 !important;\r\n    color: #fff;\r\n}\r\n\r\n\r\n\r\n/*
+    背景图片 */\r\n\r\nbody {\r\n content: \" \";\r\n  background: fixed;\r\n  z-index:
+    -1;\r\n  top: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  background-position:
+    top;\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-image:
+    url(https://bing-api.ioku.net);\r\n}\r\n\r\n\r\n\r\n/* 大卡片 */\r\n\r\n#app .ui.fluid.accordion
+    {\r\n    background-color: #fbfbfb26;\r\n    border-radius: 0.4rem;\r\n}\r\n\r\n\r\n\r\n/*
+    小卡片 */\r\n\r\n.ui.four.cards>.card {\r\n    border-radius: 0.6rem;\r\n    background-color:
+    #fafafaa3;\r\n}\r\n\r\n\r\n\r\n/* 小卡片右上角图标颜色 */\r\n\r\n.nezha-secondary-font {\r\n
+    \ color: rgba(252, 166, 7, 0.952) !important;\r\n}\r\n\r\n/* 小卡片右上角图标位置 */\r\n\r\n.ui.right.center.popup
+    {\r\n  margin: -3px 0 0 0.914286em !important;\r\n  -webkit-transform-origin:
+    left 50%;\r\n  transform-origin: left 50%;\r\n}\r\n.ui.bottom.left.popup {\r\n
+    \ margin-left: 1px !important;\r\n  margin-top: 3px !important;\r\n}\r\n.ui.top.left.popup
+    {\r\n  margin-left: 0;\r\n  margin-bottom: 10px !important;\r\n}\r\n.ui.top.right.popup
+    {\r\n  margin-right: 0;\r\n  margin-bottom: 8px !important;\r\n}\r\n.ui.left.center.popup
+    {\r\n  margin: -3px .91428571em 0 0 !important;\r\n  -webkit-transform-origin:
+    right 50%;\r\n  transform-origin: right 50%;\r\n}\r\n\r\n\r\n\r\n/* 弹出来的卡片 */\r\n\r\n.status.cards
+    .ui.content.popup {\r\n    border-radius: 0.35rem;\r\n    background-color: rgba(255,
+    255, 255, 85%);\r\n}\r\n.ui.content {\r\n  margin: 0;\r\n  padding: 1em !important;\r\n}\r\n\r\n\r\n\r\n/*
+    弹出来的小卡片位置 */\r\n\r\n.status.cards .flag {\r\n  margin-right: 0 !important;\r\n}\r\n.status.cards
+    .header > .info.icon {\r\n  float: right;\r\n  margin-right: 0;\r\n  cursor: pointer;\r\n}\r\n.status.cards
+    .wide.column {\r\n  padding-top: 0 !important;\r\n  padding-bottom: 0 !important;\r\n
+    \ height: 2rem !important;\r\n}\r\n.status.cards .three.wide.column {\r\n  padding-right:
+    0 !important;\r\n}\r\n.status.cards .wide.column:nth-child(1) {\r\n  margin-top:
+    1rem !important;\r\n}\r\n.status.cards .wide.column:nth-child(2) {\r\n  margin-top:
+    1rem !important;\r\n}\r\n.status.cards .description {\r\n  padding-bottom: 1rem
+    !important;\r\n}\r\n.status.cards .ui.content.popup {\r\n  min-width: 292px;\r\n
+    \ min-width: 21rem;\r\n}\r\n.status.cards .outline.icon {\r\n  margin-right: -4px;\r\n}\r\n\r\n\r\n\r\n/*
+    进度条圆角和颜色 */\r\n\r\n.ui.progress{}\r\n.ui.progress .bar {\r\n  min-width: 1.8em
+    !important;\r\n  line-height: 1.65em;\r\n  }\r\n\r\n.ui.fine.progress> .bar {\r\n
+    \ background-color: #21ba45!important;\r\n}\r\n.ui.progress> .bar {\r\n  background-color:
+    #000!important;\r\n}\r\n.ui.progress.fine .bar {\r\n  background-color: #21ba45!important;\r\n}\r\n.ui.progress.warning
+    .bar {\r\n  background-color: #FFA500!important;\r\n}\r\n.ui.progress.error .bar
+    {\r\n  background-color: #e41e10!important;\r\n}\r\n.ui.progress.offline .bar
+    {\r\n  background-color: #C0C0C0!important;\r\n}\r\n\r\n/* 上传下载图标颜色 */\r\n\r\ni.arrow.alternate.circle.down.outline.icon
+    {\r\n    color: green;\r\n}\r\n\r\ni.arrow.alternate.circle.up.outline.icon {\r\n
+    \   color: #ff0000;\r\n}\r\n\r\n.ui.inverted.segment, .ui.primary.inverted.segment
+    {\r\n    color: #000;\r\n    font-weight: bold;\r\n    background-color: rgba(255,
+    255, 255, 25%)\r\n}\r\n</style>\r\n<script>\r\nwindow.onload = function(){\r\nvar
+    avatar=document.querySelector(\".item img\")\r\nvar footer=document.querySelector(\"div.is-size-7\")\r\nfooter.innerHTML=\"Powered
+    by ioku.net\"\r\nfooter.style.visibility=\"visible\"\r\navatar.src=\"https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/795611a2-3980-4b37-bcbc-3b82556b4b01.png\"\r\navatar.style.visibility=\"visible\"\r\n}\r\n</script>"
+  viewpassword: ""
+oauth2:
+  type: github
+  admin: LiteraturePro
+  clientid: 177cd24aa0d42001475b
+  clientsecret: 2ea06a73773e90486c81bba3f51ac54423cb2494
+httpport: 80
+grpcport: 5555
+grpchost: 149.248.194.206
+proxygrpcport: 0
+tls: false
+enableplainipinnotification: false
+enableipchangenotification: false
+ipchangenotificationtag: default
+cover: 0
+ignoredipnotification: ""
+ignoredipnotificationserverids: {}
