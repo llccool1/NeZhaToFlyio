@@ -60,8 +60,8 @@ site:
 oauth2:
   type: github
   admin: LiteraturePro
-  clientid: 177cd24aa0d42001475b
-  clientsecret: 2ea06a73773e90486c81bba3f51ac54423cb2494
+  clientid: f89b31111ed3107bf15f
+  clientsecret: c9230cf681e5e2d0eb38a953703a89cdae3a0d7e
 httpport: 80
 grpcport: 5555
 grpchost: 149.248.194.206
