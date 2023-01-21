@@ -55,7 +55,7 @@ site:
     {\r\n    color: #000;\r\n    font-weight: bold;\r\n    background-color: rgba(255,
     255, 255, 25%)\r\n}\r\n</style>\r\n<script>\r\nwindow.onload = function(){\r\nvar
     avatar=document.querySelector(\".item img\")\r\nvar footer=document.querySelector(\"div.is-size-7\")\r\nfooter.innerHTML=\"Powered
-    by ioku.net\"\r\nfooter.style.visibility=\"visible\"\r\navatar.src=\"https://vkceyugu.cdn.bspapp.com/VKCEYUGU-4a2224fd-4003-4b8c-b165-abef8c34b228/795611a2-3980-4b37-bcbc-3b82556b4b01.png\"\r\navatar.style.visibility=\"visible\"\r\n}\r\n</script>"
+    by ioku.net\"\r\nfooter.style.visibility=\"visible\"\r\navatar.src=\"https://r2.ioku.net/TouXiang.jpg\"\r\navatar.style.visibility=\"visible\"\r\n}\r\n</script>"
   viewpassword: ""
 oauth2:
   type: github
