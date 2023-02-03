@@ -17,7 +17,7 @@ destination = "/var/lib/grafana"
   
   
 [[services]]
-  http_checks = ["nezhajk.fly.dev"]
+  http_checks = []
   internal_port = 80
   processes = ["app"]
   protocol = "tcp"
