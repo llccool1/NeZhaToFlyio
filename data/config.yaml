@@ -59,9 +59,9 @@ site:
   viewpassword: ""
 oauth2:
   type: github
-  admin: LiteraturePro
-  clientid: f89b31111ed3107bf15f
-  clientsecret: c9230cf681e5e2d0eb38a953703a89cdae3a0d7e
+  admin: llccool1
+  clientid: a3e00ce40bd73a6af408
+  clientsecret: 86c8920fda80b49935cbbbafe5ab8f3c77a9ecf7
 httpport: 80
 grpcport: 5555
 grpchost: 149.248.194.206
