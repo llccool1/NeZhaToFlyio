@@ -60,8 +60,8 @@ site:
 oauth2:
   type: github
   admin: llccool1
-  clientid: 
-  clientsecret: 
+  clientid: 5d71c70041ba4d56bc3e
+  clientsecret: 3e81bab1071179f71691a583eacd1d52c331b49e
 httpport: 80
 grpcport: 5555
 grpchost: 填ip地址
